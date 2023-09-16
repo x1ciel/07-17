@@ -1,0 +1,89 @@
+body{
+	background-color: #f0add6;
+}
+.tb{
+	border: 5px groove;
+	border-color: pink;
+	border-radius: 50px;
+	background-image: url("p1.png");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50%;
+	text-align: center;
+}
+.tb2{
+	border: 5px groove;
+	border-color: white;
+	border-radius: 50px;
+	background-image: url("p1.png");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50%;
+	text-align: center;
+	background-color: white;
+	opacity: 50%;
+}
+h1, h2{
+	font-family: Bagel Fat One;
+	font-size: 100px;
+	color: #7A5C58;
+}
+h5 {
+	font-family: Bagel Fat One;
+	font-size: 25px;
+	color: #7A5C58;
+	opacity: 100%
+}
+p{
+	font-size: 100px;
+}
+td {
+	width: 300px;
+	height: 250px;
+}
+td:first-child{
+	border-left-style: 5px solid;
+    border-radius: 45px; 
+    opacity: 70%;
+}
+
+.button {
+  background-color: #CCCCFF;
+  border: 1px white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50px;
+}
+
+.button:hover {background-color: #34aeeb}
+
+.button:active {
+  background-color: #34aeeb;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+table{
+	text-align: center;
+}
+
+.hidden {
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
+
+.visible {
+  opacity: 1;
+  transition: opacity 2s ease-in-out;
+}
+.img1 {
+	width: 450px;
+	border-radius: 50px;
+	opacity: 100%;
+}
